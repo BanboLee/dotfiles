@@ -1,0 +1,16 @@
+font-family = "ComicShannsMono Nerd Font Mono"
+font-size = 15
+theme = Catppuccin Mocha
+window-inherit-font-size = false
+cursor-style = bar
+cursor-style-blink = true
+clipboard-read = allow
+clipboard-write = allow
+
+keybind = ctrl+shift+l=goto_split:right
+keybind = ctrl+shift+h=goto_split:left
+keybind = ctrl+shift+j=goto_split:down
+keybind = ctrl+shift+k=goto_split:up
+keybind = ctrl+z=toggle_split_zoom
+keybind = cmd+shift+d=new_split:right
+keybind = shift+enter=text:\x1b\r

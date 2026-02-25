@@ -1,0 +1,6 @@
+gui:
+  language: "en"
+  nerdFontsVersion: "3"
+
+os:
+  editPreset: "nvim"
