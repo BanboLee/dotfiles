@@ -1,0 +1,180 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "model": "ark/ep-20260127144650-pfpdv", // GLM 4.7
+  "autoupdate": true,
+  "provider": {
+    "ark": {
+      "options": {
+        "baseURL": "https://ark-cn-beijing.bytedance.net/api/v3",
+        "apiKey": "{env:ARK_API_KEY}"
+      },
+      "models": {
+        "ep-20251215110732-2vf6d": {
+          "name": "DeepSeek v3.2",
+          "limit": {
+            "context": 90000,
+            "output": 65535
+          },
+          "options": {
+            "thinking": {
+              "type": "enabled"
+            }
+          }
+        },
+        "ep-20260127144650-pfpdv": {
+          "name": "GLM v4.7",
+          "limit": {
+            "context": 90000,
+            "output": 65536
+          }
+        },
+        "ep-20260127155612-gt2rm": {
+          "name": "Kimi K2",
+          "limit": {
+            "context": 90000,
+            "output": 65536
+          },
+          "options": {
+            "thinking": {
+              "type": "enabled"
+            }
+          }
+        },
+        "ep-20260203152119-75w9s": {
+          "name": "Seed 1.8",
+          "limit": {
+            "context": 100000,
+            "output": 65536
+          },
+          "options": {
+            "thinking": {
+              "type": "enabled"
+            }
+          }
+        }
+      }
+    },
+    "z.ai": {
+      "options": {
+        "baseURL": "https://open.bigmodel.cn/api/paas/v4/",
+        "apiKey": "{env:ZAI_API_KEY}"
+      },
+      "models": {
+        "glm-5": {
+          "name": "GLM-5",
+          "limit": {
+            "context": 200000,
+            "output": 120000
+          },
+          "options": {
+            "thinking": {
+              "type": "enabled"
+            }
+          }
+        }
+      }
+    }
+  },
+  "lsp": {
+    "gopls": {
+      "disabled": true
+    },
+    "trae-gopls": {
+      "command": ["trae-gopls", "-remote=unix;/tmp/gopls-shared.sock"],
+      "extensions": [".go", ".mod", ".sum"]
+    }
+  },
+  "mcp": {
+    "web_page_browser": {
+      "enabled": true,
+      "type": "remote",
+      "url": "http://127.0.0.1:12306/mcp",
+      "timeout": 20000
+    },
+    "Context4Code": {
+      "enabled": true,
+      "type": "remote",
+      "timeout": 100000,
+      "url": "https://0r2y3xvu.mcp.bytedance.net/sse",
+      "headers": {
+        "x-code-user-pat": "{env:C4C_user_code}"
+      }
+    },
+    "context7": {
+      "type": "remote",
+      "url": "https://mcp.context7.com/mcp",
+      "headers": {
+        "CONTEXT7_API_KEY": "{env:C7_API_KEY}"
+      },
+      "enabled": true
+    },
+    "mri": {
+      "type": "local",
+      "enabled": true,
+      "timeout": 60000,
+      "command": [
+        "npx",
+        "--registry",
+        "https://bnpm.byted.org",
+        "-y",
+        "@byted/mcp-proxy@latest"
+      ],
+      "environment": {
+        "MCP_SERVER_PSM": "bytedance.avinsight.com",
+        "MCP_GATEWAY_REGION": "CN"
+      }
+    },
+    "metrics": {
+      "type": "local",
+      "enabled": true,
+      "timeout": 60000,
+      "command": [
+        "npx",
+        "--registry",
+        "https://bnpm.byted.org",
+        "-y",
+        "@byted/mcp-proxy@latest"
+      ],
+      "environment": {
+        "MCP_SERVER_PSM": "bytedance.mcp.metrics",
+        "MCP_GATEWAY_REGION": "CN"
+      }
+    },
+    "current_time": {
+      "type": "local",
+      "enabled": true,
+      "timeout": 10000,
+      "command": ["uvx", "mcp-server-time"]
+    },
+    "sequential-thinking": {
+      "enabled": false,
+      "type": "local",
+      "command": [
+        "npx",
+        "-y",
+        "@modelcontextprotocol/server-sequential-thinking"
+      ]
+    },
+    "lark-doc": {
+      "type": "remote",
+      "url": "{env:LARK_DOC_URL}"
+    },
+    "codebase": {
+      "type": "local",
+      "enabled": true,
+      "timeout": 60000,
+      "command": [
+        "npx",
+        "--registry",
+        "https://bnpm.byted.org",
+        "-y",
+        "@byted/mcp-proxy@latest"
+      ],
+      "environment": {
+        "MCP_SERVER_PSM": "bytedance.mcp.codebase",
+        "MCP_GATEWAY_REGION": "CN"
+      }
+    }
+  },
+  "plugin": ["@mohak34/opencode-notifier@latest", "oh-my-opencode@latest"]
+}
