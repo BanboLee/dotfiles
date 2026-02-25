@@ -5,7 +5,7 @@
   "provider": {
     "ark": {
       "options": {
-        "baseURL": "https://ark-cn-beijing.bytedance.net/api/v3",
+        "baseURL": "{env:ARK_BASE_URL}",
         "apiKey": "{env:ARK_API_KEY}"
       },
       "models": {
