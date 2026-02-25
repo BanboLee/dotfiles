@@ -1,0 +1,12 @@
+{
+    "diagnostics.globals": [
+        "vim",
+        "LazyVim",
+        "table"
+    ],
+    "diagnostics.disable": [
+        "undefined-doc-name",
+        "inject-field",
+        "missing-fields"
+    ]
+}
