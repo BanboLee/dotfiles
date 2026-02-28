@@ -46,7 +46,8 @@ return {
           "-e LT05",
         },
       }
-      opts.linters_by_ft.markdown = {}
+      -- opts.linters_by_ft.markdown = { "markdownlint-cli2" }
+      opts.linters_by_ft.markdown = nil
       -- opts.linters_by_ft.go = {
       --   "golangcilint",
       --   args = {

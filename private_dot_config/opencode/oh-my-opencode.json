@@ -2,74 +2,57 @@
   "$schema": "https://raw.githubusercontent.com/code-yeongyu/oh-my-opencode/master/assets/oh-my-opencode.schema.json",
   "agents": {
     "hephaestus": {
-      // "model": "ark/ep-20260203152119-75w9s" // seed 1.8
-      "model": "ark/ep-20260127144650-pfpdv" // GLM 4.7
+      "model": "ark/ep-20260127144650-pfpdv"
     },
     "oracle": {
-      // "model": "ark/ep-20260203152119-75w9s" // seed 1.8
-      "model": "ark/ep-20260127144650-pfpdv" // GLM 4.7
+      "model": "ark/ep-20260127144650-pfpdv"
     },
     "librarian": {
-      // "model": "ark/ep-20260203152119-75w9s" // seed 1.8
-      "model": "ark/ep-20260127144650-pfpdv" // GLM 4.7
+      "model": "ark/ep-20260127144650-pfpdv"
     },
     "explore": {
-      // "model": "ark/ep-20260203152119-75w9s" // seed 1.8
-      "model": "ark/ep-20260127144650-pfpdv" // GLM 4.7
+      "model": "ark/ep-20260127144650-pfpdv"
     },
     "multimodal-looker": {
-      // "model": "ark/ep-20260203152119-75w9s" // seed 1.8
-      "model": "ark/ep-20260127144650-pfpdv" // GLM 4.7
+      "model": "ark/ep-20260127144650-pfpdv"
     },
     "prometheus": {
-      // "model": "ark/ep-20260203152119-75w9s" // seed 1.8
-      "model": "ark/ep-20260127144650-pfpdv" // GLM 4.7
+      "model": "ark/ep-20260127144650-pfpdv"
     },
     "metis": {
-      // "model": "ark/ep-20260203152119-75w9s" // seed 1.8
-      "model": "ark/ep-20260127144650-pfpdv" // GLM 4.7
+      "model": "ark/ep-20260127144650-pfpdv"
     },
     "momus": {
-      // "model": "ark/ep-20260203152119-75w9s" // seed 1.8
-      "model": "ark/ep-20260127144650-pfpdv" // GLM 4.7
+      "model": "ark/ep-20260127144650-pfpdv"
     },
     "atlas": {
-      // "model": "ark/ep-20260203152119-75w9s" // seed 1.8
-      "model": "ark/ep-20260127144650-pfpdv" // GLM 4.7
+      "model": "ark/ep-20260127144650-pfpdv"
     }
   },
   "categories": {
     "visual-engineering": {
-      // "model": "ark/ep-20260203152119-75w9s" // seed 1.8
-      "model": "ark/ep-20260127144650-pfpdv" // GLM 4.7
+      "model": "ark/ep-20260127144650-pfpdv"
     },
     "ultrabrain": {
-      // "model": "ark/ep-20260203152119-75w9s" // seed 1.8
-      "model": "ark/ep-20260127144650-pfpdv" // GLM 4.7
+      "model": "ark/ep-20260127144650-pfpdv"
     },
     "deep": {
-      // "model": "ark/ep-20260203152119-75w9s" // seed 1.8
-      "model": "ark/ep-20260127144650-pfpdv" // GLM 4.7
+      "model": "ark/ep-20260127144650-pfpdv"
     },
     "artistry": {
-      // "model": "ark/ep-20260203152119-75w9s" // seed 1.8
-      "model": "ark/ep-20260127144650-pfpdv" // GLM 4.7
+      "model": "ark/ep-20260127144650-pfpdv"
     },
     "quick": {
-      // "model": "ark/ep-20260203152119-75w9s" // seed 1.8
-      "model": "ark/ep-20260127144650-pfpdv" // GLM 4.7
+      "model": "ark/ep-20260127144650-pfpdv"
     },
     "unspecified-low": {
-      // "model": "ark/ep-20260203152119-75w9s" // seed 1.8
-      "model": "ark/ep-20260127144650-pfpdv" // GLM 4.7
+      "model": "ark/ep-20260127144650-pfpdv"
     },
     "unspecified-high": {
-      // "model": "ark/ep-20260203152119-75w9s" // seed 1.8
-      "model": "ark/ep-20260127144650-pfpdv" // GLM 4.7
+      "model": "ark/ep-20260127144650-pfpdv"
     },
     "writing": {
-      // "model": "ark/ep-20260203152119-75w9s" // seed 1.8
-      "model": "ark/ep-20260127144650-pfpdv" // GLM 4.7
+      "model": "ark/ep-20260127144650-pfpdv"
     }
   }
 }

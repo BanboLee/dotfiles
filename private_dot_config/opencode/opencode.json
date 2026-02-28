@@ -1,6 +1,6 @@
 {
   "$schema": "https://opencode.ai/config.json",
-  "model": "ark/ep-20260127144650-pfpdv", // GLM 4.7
+  "model": "ark/ep-20260127144650-pfpdv",
   "autoupdate": true,
   "provider": {
     "ark": {
@@ -176,5 +176,9 @@
       }
     }
   },
-  "plugin": ["@mohak34/opencode-notifier@latest", "oh-my-opencode@latest"]
+  "plugin": [
+    "@mohak34/opencode-notifier@latest",
+    "oh-my-opencode@latest"
+    // "oh-my-opencode-slim@latest"
+  ]
 }
