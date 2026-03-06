@@ -24,8 +24,8 @@
         "ep-20260127144650-pfpdv": {
           "name": "GLM v4.7",
           "limit": {
-            "context": 90000,
-            "output": 65536
+            "context": 100000,
+            "output": 65535
           }
         },
         "ep-20260127155612-gt2rm": {
