@@ -6,7 +6,7 @@ if status is-interactive
     # quick operation
     alias profile "nvim ~/.config/fish/config.fish"
     alias edit_term "nvim ~/.config/ghostty/config"
-    alias sop "source ~/.config/fish/config.fish"
+    alias sop "source ~/.config/fish/conf.d/*.fish ~/.config/fish/config.fish"
     alias oc opencode
 
     starship init fish | source
