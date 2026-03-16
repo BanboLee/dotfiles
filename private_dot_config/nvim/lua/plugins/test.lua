@@ -71,7 +71,7 @@ return {
               "-race",
               "-count=1",
               "-gcflags=all=-l -N",
-              "-ldflags=-linkmode=external",
+              "-ldflags=-checklinkname=0",
               "-timeout=300s",
               "-coverprofile=" .. cwd .. "/coverage.out",
             }

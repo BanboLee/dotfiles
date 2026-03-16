@@ -178,7 +178,8 @@
   },
   "plugin": [
     "@mohak34/opencode-notifier@latest",
-    "oh-my-opencode@latest"
-    // "oh-my-opencode-slim@latest"
+    "oh-my-opencode@latest",
+    // "oh-my-opencode-slim@latest",
+    "openrtk@latest"
   ]
 }
