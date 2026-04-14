@@ -5,7 +5,7 @@
 local vo = vim.opt
 vo.spell = true
 vo.cmdheight = 1 -- more space in the neovim command line for displaying messages
-vo.guifont = "monospace:h17" -- the font used in graphical neovim applications
+-- vo.guifont = "monospace:h17" -- the font used in graphical neovim applications
 vo.autowrite = true -- Enable auto write
 vo.clipboard = "unnamedplus" -- Sync with system clipboard
 vo.completeopt = "menu,menuone,noselect"

@@ -1,5 +1,11 @@
-font-family = "ComicShannsMono Nerd Font Mono"
-font-size = 15
+font-family = "Maple Mono NF CN"
+font-family-bold = "Maple Mono NF CN Bold"
+font-family-italic = "Maple Mono NF CN Italic"
+font-family-bold-italic = "Maple Mono NF CN Bold Italic"
+font-style-bold = "Bold"
+font-style-italic = "Italic"
+font-size = 16
+
 theme = Catppuccin Mocha
 window-inherit-font-size = false
 cursor-style = bar

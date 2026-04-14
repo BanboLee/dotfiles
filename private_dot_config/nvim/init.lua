@@ -19,6 +19,9 @@ require("sidekick").setup({
       coco = {
         cmd = { "coco" },
       },
+      tt = {
+        cmd = { "ttadk", "code", "-t", "opencode" },
+      },
     },
     mux = {
       backend = "zellij",

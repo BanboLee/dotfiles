@@ -38,7 +38,7 @@ return {
   },
   {
     "nvim-neotest/neotest",
-    optional = true,
+    -- optional = true,
     dependencies = {
       "nvim-neotest/nvim-nio",
       "nvim-lua/plenary.nvim",
@@ -51,6 +51,7 @@ return {
       {
         "fredrikaverpil/neotest-golang",
         version = "*",
+        -- pin = true,
         build = function()
           vim.system({ "go", "install", "gotest.tools/gotestsum@latest" }):wait()
         end,
@@ -71,7 +72,7 @@ return {
               "-race",
               "-count=1",
               "-gcflags=all=-l -N",
-              "-ldflags=-checklinkname=0",
+              -- "-ldflags=-checklinkname=0",
               "-timeout=300s",
               "-coverprofile=" .. cwd .. "/coverage.out",
             }
