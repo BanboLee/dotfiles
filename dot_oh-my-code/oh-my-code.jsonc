@@ -1,0 +1,16 @@
+{
+  "language": {
+    "lsp": {
+      // LSP 分析超时时间（毫秒），默认 120000
+      "timeout": 120000,
+      "servers": {
+        "go": {
+          "command": [
+            "trae-gopls",
+            "-remote=auto"
+          ]
+        }
+      }
+    }
+  }
+}

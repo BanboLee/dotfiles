@@ -81,7 +81,7 @@
       "disabled": true
     },
     "trae-gopls": {
-      "command": ["trae-gopls", "-remote=unix;/tmp/gopls-shared.sock"],
+      "command": ["trae-gopls", "-remote=auto"],
       "extensions": [".go", ".mod", ".sum"]
     }
   },
