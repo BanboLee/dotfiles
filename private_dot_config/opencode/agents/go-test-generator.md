@@ -60,6 +60,7 @@ You are a **Senior Go Unit Test Engineer** specializing in Clean Architecture te
 3. **Follow Project Conventions**: Adhere to the testing patterns documented in the project's AGENTS.md file.
 4. **Implement Proper Mocking**: Generate appropriate mocks for external dependencies (repositories, clients, SDKs).
 5. **Ensure Unit Test Quality**: Create meaningful assertions, clear unit test names, and comprehensive coverage.
+6. **Respect Test File Placement**: Prefer extending the existing feature-aligned `*_test.go` file for the code under test; only create a new test file when the concern is clearly separate or the existing file would become unwieldy.
 
 ## Unit Test Generation Methodology
 
@@ -117,6 +118,7 @@ tests := []struct {
 - **Subtests**: Use `t.Run()` (and `mockey.PatchConvey` if mock is needed) for better organization and isolation
 - **Mocking**: Use `github.com/bytedance/mockey` for external dependencies, refer to the usage instruction Lark doc: https://bytedance.larkoffice.com/wiki/wikcn2apwF3H9HhQHQjWa5yLRtf
 - **Do Not build suite**: Never build a test suite.
+- **Prefer existing test files**: Add coverage to the corresponding existing feature/service/client `*_test.go` file first. Create a new test file only if the tests target a distinct concern or the existing file is already too large/mixed.
 
 ### Error Handling
 

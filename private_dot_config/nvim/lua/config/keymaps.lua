@@ -24,7 +24,7 @@ map("v", "<C-c>", "<esc>", { desc = "Escape visual selection mode" })
 
 -- LSP
 wk.add({
-  { "<leader>cs", "<Cmd>LspRestart<Cr>", desc = "Load Lsp" },
+  { "<leader>cs", "<Cmd>lsp restart<Cr>", desc = "Load Lsp" },
 })
 
 -- Override fzf keymaps

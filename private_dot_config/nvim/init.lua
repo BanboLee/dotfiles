@@ -19,8 +19,12 @@ require("sidekick").setup({
       coco = {
         cmd = { "coco" },
       },
-      tt = {
+      opencode = {
         cmd = { "ttadk", "code", "-t", "opencode" },
+      },
+      claude = {
+        -- cmd = { "ttadk", "code", "-t", "claude" },
+        cmd = { "aiden", "x", "claude" },
       },
     },
     mux = {

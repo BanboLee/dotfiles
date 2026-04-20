@@ -186,7 +186,6 @@
   "plugin": [
     "@mohak34/opencode-notifier@latest",
     "oh-my-openagent@latest",
-    "openrtk@latest",
-    "@byted/opencode-reporter-plugin"
+    "openrtk@latest"
   ]
 }
