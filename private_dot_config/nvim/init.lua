@@ -26,6 +26,9 @@ require("sidekick").setup({
         -- cmd = { "ttadk", "code", "-t", "claude" },
         cmd = { "aiden", "x", "claude" },
       },
+      codex = {
+        cmd = { "aiden", "x", "codex" },
+      },
     },
     mux = {
       backend = "zellij",
