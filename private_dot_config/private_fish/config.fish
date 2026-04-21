@@ -8,6 +8,7 @@ if status is-interactive
     alias edit_term "nvim ~/.config/ghostty/config"
     alias sop "source ~/.config/fish/config.fish"
     alias oc opencode
+    abbr cz chezmoi
 
     starship init fish | source
 end
