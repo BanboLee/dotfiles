@@ -54,25 +54,5 @@
     "writing": {
       "model": "openai/gpt-5.3-codex"
     }
-  },
-  "_migrations": [
-    "model-version:openai/gpt-5.3-codex->openai/gpt-5.3-codex",
-    "model-version:openai/gpt-5.3-codex->openai/gpt-5.3-codex",
-    "model-version:openai/gpt-5.3-codex->openai/gpt-5.3-codex",
-    "model-version:openai/gpt-5.3-codex->openai/gpt-5.3-codex",
-    "model-version:openai/gpt-5.3-codex->openai/gpt-5.3-codex",
-    "model-version:openai/gpt-5.3-codex->openai/gpt-5.3-codex",
-    "model-version:openai/gpt-5.3-codex->openai/gpt-5.3-codex",
-    "model-version:openai/gpt-5.3-codex->openai/gpt-5.3-codex",
-    "model-version:openai/gpt-5.3-codex->openai/gpt-5.3-codex",
-    "model-version:openai/gpt-5.3-codex->openai/gpt-5.3-codex",
-    "model-version:openai/gpt-5.3-codex->openai/gpt-5.3-codex",
-    "model-version:openai/gpt-5.3-codex->openai/gpt-5.3-codex",
-    "model-version:openai/gpt-5.3-codex->openai/gpt-5.3-codex",
-    "model-version:openai/gpt-5.3-codex->openai/gpt-5.3-codex",
-    "model-version:openai/gpt-5.3-codex->openai/gpt-5.3-codex",
-    "model-version:openai/gpt-5.3-codex->openai/gpt-5.3-codex",
-    "model-version:openai/gpt-5.3-codex->openai/gpt-5.3-codex",
-    "model-version:openai/gpt-5.3-codex->openai/gpt-5.3-codex"
-  ]
+  }
 }
